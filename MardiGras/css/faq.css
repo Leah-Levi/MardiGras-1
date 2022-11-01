@@ -1,0 +1,110 @@
+.section {
+    margin: 0 auto;
+
+}
+
+
+.section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.1em;
+    color: blueviolet;
+
+}
+
+.container .accordion {
+    margin: 0 auto;
+    color: blueviolet;
+    background: black;
+ 
+
+}
+
+.accordion .card-header {
+    color: #fff;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.accordion .btn {
+    color:blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+
+
+}
+
+.accordion .card .btn-link {
+    text-decoration:blueviolet;
+}
+
+.accordion .card .btn:focus {
+    box-shadow: none;
+}
+
+.accordion .card .btn:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.accordion .card {
+    margin-bottom: 1em;
+
+}
+
+p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 22px;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    min-height: 5px;
+    margin-top: 5px;
+}
+
+footer .row {
+    min-height: 150px;
+}
+
+footer .row .yellow-box {
+    background: black;
+    color: #cbaa65;
+
+}
+
+footer .row .green-box {
+    color: #fff;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: 22px;
+
+
+
+}
+
+footer .row .purple-box {
+    background: black;
+}
+
+footer .green-box p.rights {
+    margin-bottom: 5px !important;
+}
+
+@media (max-width: 768px) {
+    .container .title-main h1 {
+        font-size: 4.5em;
+    }
+
+    .accordion .btn {
+        font-size: 1.2rem;
+    }
+
+}

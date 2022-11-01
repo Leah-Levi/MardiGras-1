@@ -1,0 +1,87 @@
+h1,
+h2 h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22x;
+    margin: 0;
+    font: weight 22px;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22x;
+    margin: 0;
+    font: weight 22px;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.section {
+    color: #cbaa65;
+    margin: 0 auto;
+
+}
+
+.first-section img {
+    box-shadow: 0 5px 15px 5px #cbaa65;
+}
+
+p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 22px;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer .row {
+    min-height: 150px;
+  }
+
+.article-separator .separator {
+    width: 33.33%;
+    height: 6px;
+}
+
+.article-separator .separator.green {
+    background: #cbaa65;
+}
+
+.article-separator .separator.yellow {
+    background: #cbaa65;
+}
+
+.article-separator .separator.purple {
+    background: #cbaa65;
+}
+
+
+@media (max-width: 767px) {}
+
+header {
+    background: black;
+}
+
+header .logo-search .search {
+    display: #cbaa65;
+}
+
+.burger {
+    color: #cbaa65;
+    cursor: pointer;
+}
+
+header .logo-search #id_burger {
+    float: center !important;
+}
+
+#id_nav {
+    display: none;
+}

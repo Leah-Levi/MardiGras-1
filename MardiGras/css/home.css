@@ -1,0 +1,161 @@
+  /* font-family: 'Pattaya';=Title */
+  /* font-family: 'Henny Penny'; =Title */
+  /* font-family: 'Roboto', sans-serif; =Text */
+
+  body {
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  p {
+    color: #cbaa65;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 22px;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .underline .short-underline {
+    width: 9em;
+    height: 2px;
+    margin: 2em auto 1em auto;
+    background-color: #cbaa65;
+  }
+
+  .underline .long-underline {
+    width: 18em;
+    height: 2px;
+    margin: auto;
+    background-color: #cbaa65;
+  }
+
+  #slider_item {
+    height: 500px;
+  }
+
+  #slider_item img {
+    height: 500px;
+  }
+
+  .common-heading {
+    font-family: "Pattaya", serif;
+    font-size: 5.5em;
+    color: #fff;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .carousel-heading {
+    font-family: "Pattaya", serif;
+    color: #cbaa65;
+    text-shadow: 3px 3px 1px black;
+  }
+
+  .mobile-cov {
+    text-shadow: 3px 3px 1px b;
+  }
+
+  .main-content {
+    color: #cbaa65;
+  }
+
+  .main-content p {
+    text-align: justify;
+  }
+
+  .main-content .first-section img {
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 13px 26px -3px #cbaa65;
+    border-radius: 3px;
+  }
+
+  .main-content button#moreBtn {
+    border: 0.5px solid black;
+    color: #fff;
+    background: linear-gradient(to bottom, #cfc19f 24%, #534f2c 26%, #cfc19f 28%, #cfc19f 29%, #ffecd4 45%, #3a2c1f 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .second-section img {
+    width: 500px;
+    height: 500;
+
+    box-shadow: 0 13px 26px -10px #cbaa65;
+    border-radius: 3px;
+  }
+
+  aside .sponsor_link {
+    text-decoration: none;
+    color: #cbaa65;
+  }
+
+  aside .sponsor-box {
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 1.5em;
+    background: black;
+    min-height: 450px;
+    border: 1px solid #cbaa65;
+  }
+
+  .sponsor-box .sponsor-fullname {
+    font-size: 1.2rem;
+  }
+
+  .sponsor-box .card-text {
+    font-size: 1rem;
+
+  }
+
+
+
+  @media (max-width: 767px) {
+    #mobile_cover {
+      min-height: 18em;
+      background-size: cover;
+      background-position: center;
+      color: #0b1823;
+      margin-top: -16px;
+    }
+
+    aside .sponsor-box {
+      width: 45%;
+      border: 3px solid #cbaa65;
+    }
+
+    .main-content {
+      margin-top: 70px;
+      color: #cbaa65;
+    }
+
+    aside.aside-right {
+      margin-top: 70px;
+      margin-bottom: 70px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .slider {
+      display: none;
+    }
+
+    aside .sponsor-box {
+      width: 70%;
+    }
+
+    .mobile-cov h1 {
+      font-family: "Pattaya", serif;
+      font: size 2px;
+      text-align: center;
+    }
+  }

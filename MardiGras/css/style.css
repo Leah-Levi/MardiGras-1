@@ -410,8 +410,32 @@ footer .green-box p.rights {
   margin-bottom: 5px !important;
 }
 
+  
+@media (max-width: 991px) {
+  #mobile_cover {
+    min-height: 18em;
+    background-size: cover;
+    background-position: center;
+    color: #0b1823;
+    margin-top: -16px;
+  }
+  aside .sponsor-box {
+    width: 45%;
+    border: 2px solid #cbaa65;
+  }
 
+  .main-content {
+    margin-top: 70px;
+    color:  #cbaa65;
+  }
 
+  aside.aside-right {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+/*  
 @media (max-width: 111px) {
   #id_nav i {
     display: list-item;
@@ -436,6 +460,10 @@ footer .green-box p.rights {
   header .logo-search #id_burger {
     float: #cbaa65 !important;
   }
+
+*/
+
+
 
   #id_nav {
     /* display: block; */
